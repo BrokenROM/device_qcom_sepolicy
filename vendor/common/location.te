@@ -36,7 +36,7 @@ allow location vendor_shell_exec:file rx_file_perms;
 #allow location system_server:unix_stream_socket { read write connectto};
 
 # For interfacing with the device sensorservice
-# permission check for slim daemon
+# permission check for broken daemon
 #allow location { sensorservice_service permission_service }:service_manager find;
 
 hwbinder_use(location)
